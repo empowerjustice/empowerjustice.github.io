@@ -14,42 +14,55 @@
     header {
       background-color: #d94f4f;
       color: white;
-      padding: 25px 20px;
+      padding: 25px;
       text-align: center;
     }
     header h1 {
       margin: 0;
-      font-size: 2em;
     }
     header p {
-      margin: 5px 0 0;
+      margin-top: 5px;
       font-style: italic;
     }
     main {
-      padding: 20px;
-      max-width: 900px;
+      max-width: 800px;
       margin: auto;
+      padding: 20px;
     }
     .section {
-      background-color: #ffffff;
-      margin: 20px 0;
+      background: white;
       padding: 20px;
+      margin: 20px 0;
       border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
-    .section h2 {
-      color: #d94f4f;
-      margin-top: 0;
+    label {
+      font-weight: bold;
+      margin-top: 10px;
+      display: block;
     }
-    iframe {
+    input, textarea, select {
       width: 100%;
-      height: 1200px;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #d94f4f;
+      color: white;
+      padding: 10px 20px;
+      margin-top: 20px;
       border: none;
+      border-radius: 8px;
+      font-size: 1em;
+      cursor: pointer;
     }
     footer {
       text-align: center;
-      font-size: 0.9em;
       color: #888;
+      font-size: 0.9em;
+      margin-top: 40px;
       padding: 20px;
     }
   </style>
@@ -62,38 +75,41 @@
   </header>
 
   <main>
-    <section class="section">
-      <h2>Welcome</h2>
-      <p>
-        EmpowerJustice is a survivor-led initiative standing against systemic neglect,
-        institutional abuse, and cross-border failures in child welfare, justice, and protection.
-        Led by Niki Donovan, this platform is a call to action — for justice, truth, and healing.
-      </p>
-    </section>
-
-    <section class="section">
+    <div class="section">
       <h2>Join the Class Action</h2>
-      <p>Please complete the form below to share your experience and become part of the movement.</p>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe60R_D3Bb6jUKj70q9vwC0neYHTRFFx0RaF2RnTfFBCwkkDw/viewform?embedded=true">Loading…</iframe>
-    </section>
+      <form action="https://docs.google.com/forms/d/e/1FAIpQLSe60R_D3Bb6jUKj70q9vwC0neYHTRFFx0RaF2RnTfFBCwkkDw/formResponse" method="POST" target="_blank">
+        <label for="name">Full Name</label>
+        <input name="entry.1875178684" id="name" type="text" required />
 
-    <section class="section">
-      <h2>About Niki Donovan</h2>
-      <p>
-        Niki Donovan is a survivor of domestic abuse, human trafficking, and cross-border child welfare failures.
-        She founded EmpowerJustice to unite voices, fight for justice, and ensure that no one is forgotten.
-        Her mission is to hold systems accountable and help survivors reclaim their power.
-      </p>
-    </section>
+        <label for="email">Email Address</label>
+        <input name="entry.1069723474" id="email" type="email" required />
 
-    <section class="section">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:niki.donovanempowernetwork@gmail.com">niki.donovanempowernetwork@gmail.com</a></p>
-    </section>
+        <label for="phone">Phone Number</label>
+        <input name="entry.1078786826" id="phone" type="text" />
+
+        <label for="country">Country</label>
+        <select name="entry.524857403" id="country">
+          <option>Canada</option>
+          <option>United States</option>
+          <option>Other</option>
+        </select>
+
+        <label for="summary">Brief Summary of Your Experience</label>
+        <textarea name="entry.1456545277" id="summary" rows="5" required></textarea>
+
+        <label for="contact">Would you like to be contacted for a statement?</label>
+        <select name="entry.1112635467" id="contact">
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+
+        <button type="submit">Submit</button>
+      </form>
+    </div>
   </main>
 
   <footer>
-    &copy; 2025 EmpowerJustice. All rights reserved.
+    &copy; 2025 EmpowerJustice. All rights reserved. | Contact: niki.donovanempowernetwork@gmail.com
   </footer>
 
 </body>
