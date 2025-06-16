@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EmpowerJustice Sign-Up</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f9 url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Phoenix-Firebird.svg/1024px-Phoenix-Firebird.svg.png') no-repeat center center fixed;
+      background-size: 300px;
+      color: #333;
+      padding: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: rgba(255,255,255,0.95);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #d94f4f;
+    }
+    p.subtitle {
+      text-align: center;
+      font-style: italic;
+      color: #777;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin-top: 10px;
+    }
+    input, textarea, select {
+      padding: 10px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      margin-top: 5px;
+    }
+    button {
+      margin-top: 20px;
+      background-color: #d94f4f;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .qr {
+      text-align: center;
+      margin-top: 30px;
+    }
+    .mission {
+      margin-top: 40px;
+      background: #f9eaea;
+      padding: 20px;
+      border-radius: 10px;
+      font-weight: bold;
+      text-align: center;
+    }
+    .contact {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.9em;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>EmpowerJustice Class Action</h1>
+    <p class="subtitle">"From the Ashes, We Rise."</p>
+    <form action="https://docs.google.com/forms/d/e/YOUR_FORM_ID_HERE/formResponse" method="POST" target="_blank">
+      <label for="name">Full Legal Name:</label>
+      <input type="text" id="name" name="entry.1234567890" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="entry.1234567891" required>
+
+      <label for="phone">Phone Number (optional):</label>
+      <input type="tel" id="phone" name="entry.1234567892">
+
+      <label for="country">Country:</label>
+      <select id="country" name="entry.1234567893">
+        <option>Canada</option>
+        <option>United States</option>
+        <option>Other</option>
+      </select>
+
+      <label for="experience">Brief Summary of Your Experience:</label>
+      <textarea id="experience" name="entry.1234567894" rows="5" required></textarea>
+
+      <label for="contact">Would you like to be contacted for a statement?</label>
+      <select id="contact" name="entry.1234567895">
+        <option>Yes</option>
+        <option>No</option>
+      </select>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <div class="qr">
+      <p>📲 Scan to Sign Up:</p>
+      <img src="empowerjustice_signup_qr.png" alt="QR Code" width="150">
+    </div>
+
+    <div class="mission">
+      I am Niki Donovan, lead advocate for EmpowerJustice. As a survivor of systemic failure and cross-border negligence, I stand for every forgotten voice. Together, we rise — for justice, for truth, for the children.
+    </div>
+
+    <div class="contact">
+      Contact: <a href="mailto:niki.donovanempowernetwork@gmail.com">niki.donovanempowernetwork@gmail.com</a>
+    </div>
+  </div>
+</body>
+</html>
