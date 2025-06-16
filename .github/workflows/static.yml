@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EmpowerJustice | From the Ashes, We Rise</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdf9f9;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #d94f4f;
+      color: white;
+      padding: 25px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-style: italic;
+    }
+    main {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .section {
+      background-color: #ffffff;
+      margin: 20px 0;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .section h2 {
+      color: #d94f4f;
+      margin-top: 0;
+    }
+    iframe {
+      width: 100%;
+      height: 1200px;
+      border: none;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #888;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>EmpowerJustice</h1>
+    <p>From the Ashes, We Rise</p>
+  </header>
+
+  <main>
+    <section class="section">
+      <h2>Welcome</h2>
+      <p>
+        EmpowerJustice is a survivor-led initiative standing against systemic neglect,
+        institutional abuse, and cross-border failures in child welfare, justice, and protection.
+        Led by Niki Donovan, this platform is a call to action — for justice, truth, and healing.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Join the Class Action</h2>
+      <p>Please complete the form below to share your experience and become part of the movement.</p>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe60R_D3Bb6jUKj70q9vwC0neYHTRFFx0RaF2RnTfFBCwkkDw/viewform?embedded=true">Loading…</iframe>
+    </section>
+
+    <section class="section">
+      <h2>About Niki Donovan</h2>
+      <p>
+        Niki Donovan is a survivor of domestic abuse, human trafficking, and cross-border child welfare failures.
+        She founded EmpowerJustice to unite voices, fight for justice, and ensure that no one is forgotten.
+        Her mission is to hold systems accountable and help survivors reclaim their power.
+      </p>
+    </section>
+
+    <section class="section">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:niki.donovanempowernetwork@gmail.com">niki.donovanempowernetwork@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 EmpowerJustice. All rights reserved.
+  </footer>
+
+</body>
+</html>
